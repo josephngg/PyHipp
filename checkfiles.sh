@@ -7,5 +7,5 @@ echo "Number of mda files"
 find mountains -name "firings.mda" | wc -l
 
 echo "Time taken (s)"
-tail pipe-slurm*.out
+tail *.out
 
